@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--calander-->
         <scene sceneID="58o-xf-cvO">
             <objects>
                 <viewController id="uXu-Wj-eaO" sceneMemberID="viewController">
@@ -19,13 +19,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="URW-cF-0iX"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="dZp-nj-SKM"/>
+                    <tabBarItem key="tabBarItem" title="calander" selectedImage="Image-1" id="dZp-nj-SKM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hxl-pb-kGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="194" y="-855"/>
         </scene>
-        <!--Item 1-->
+        <!--countdown-->
         <scene sceneID="OLm-d8-Vpv">
             <objects>
                 <viewController id="gsi-NG-mJH" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mqX-zj-suI"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="ZAa-pS-VQU"/>
+                    <tabBarItem key="tabBarItem" title="countdown" selectedImage="Image" id="ZAa-pS-VQU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YzD-fR-EgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,11 +70,16 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="achievements" id="hY1-mO-uT2"/>
+                    <tabBarItem key="tabBarItem" title="achievements" selectedImage="Image-2" id="hY1-mO-uT2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175" y="-60"/>
+            <point key="canvasLocation" x="193" y="-147"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="29" height="36"/>
+        <image name="Image-1" width="36" height="36"/>
+        <image name="Image-2" width="36" height="30"/>
+    </resources>
 </document>
