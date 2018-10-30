@@ -60,7 +60,7 @@
             </objects>
             <point key="canvasLocation" x="-745" y="-787"/>
         </scene>
-        <!--Item-->
+        <!--achievements-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Revup" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,11 +70,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hY1-mO-uT2"/>
+                    <tabBarItem key="tabBarItem" title="achievements" id="hY1-mO-uT2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="-206"/>
+            <point key="canvasLocation" x="175" y="-60"/>
         </scene>
     </scenes>
 </document>
